@@ -1,0 +1,27 @@
+/* Default style */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* color variables */
+:root {
+    --moderatecyan: hsl(176, 50%, 47%);
+    --darkcyan: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+    --darkgray: hsl(0, 0%, 48%)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/image-hero-desktop.jpg");
+}
